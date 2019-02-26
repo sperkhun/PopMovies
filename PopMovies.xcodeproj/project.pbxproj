@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A868A950222171C5000CCF8B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868A94F222171C5000CCF8B /* DetailViewController.swift */; };
+		A868A952222171F4000CCF8B /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868A951222171F4000CCF8B /* CircleProgressBar.swift */; };
+		A8BFCC762222FBCE00A2037F /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCC742222FBCE00A2037F /* Movie+CoreDataClass.swift */; };
+		A8BFCC772222FBCE00A2037F /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFCC752222FBCE00A2037F /* Movie+CoreDataProperties.swift */; };
 		A8C38DB3221C600700D14E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C38DB2221C600700D14E9A /* AppDelegate.swift */; };
-		A8C38DB5221C600700D14E9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C38DB4221C600700D14E9A /* ViewController.swift */; };
+		A8C38DB5221C600700D14E9A /* PopMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C38DB4221C600700D14E9A /* PopMoviesViewController.swift */; };
 		A8C38DB8221C600700D14E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C38DB6221C600700D14E9A /* Main.storyboard */; };
 		A8C38DBB221C600700D14E9A /* PopMovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8C38DB9221C600700D14E9A /* PopMovies.xcdatamodeld */; };
 		A8C38DBD221C600700D14E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C38DBC221C600700D14E9A /* Assets.xcassets */; };
 		A8C38DC0221C600700D14E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C38DBE221C600700D14E9A /* LaunchScreen.storyboard */; };
+		A8D77F3C221EDBB700410E0B /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D77F3B221EDBB700410E0B /* MovieManager.swift */; };
+		A8D77F42221EE58200410E0B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D77F41221EE58200410E0B /* Request.swift */; };
+		A8D77F44221EE76400410E0B /* PopMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D77F43221EE76400410E0B /* PopMovies.swift */; };
+		A8D77F4E221F0EAB00410E0B /* FilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D77F4D221F0EAB00410E0B /* FilmCell.swift */; };
+		A8F59199222538D0005F88FA /* PopMoviesViewController+CollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F59198222538D0005F88FA /* PopMoviesViewController+CollectionViewDelegate.swift */; };
+		A8F5919B22253A10005F88FA /* PopMoviesViewController+CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F5919A22253A10005F88FA /* PopMoviesViewController+CollectionViewDataSource.swift */; };
+		A8F5919D22253A9C005F88FA /* PopMoviesViewController+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F5919C22253A9C005F88FA /* PopMoviesViewController+UICollectionViewDelegateFlowLayout.swift */; };
+		A8F591A12225444D005F88FA /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F591A02225444D005F88FA /* UIImageViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A868A94F222171C5000CCF8B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A868A951222171F4000CCF8B /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
+		A8BFCC742222FBCE00A2037F /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A8BFCC752222FBCE00A2037F /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A8C38DAF221C600700D14E9A /* PopMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C38DB2221C600700D14E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8C38DB4221C600700D14E9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8C38DB4221C600700D14E9A /* PopMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMoviesViewController.swift; sourceTree = "<group>"; };
 		A8C38DB7221C600700D14E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8C38DBA221C600700D14E9A /* PopMovies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PopMovies.xcdatamodel; sourceTree = "<group>"; };
 		A8C38DBC221C600700D14E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8C38DBF221C600700D14E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8C38DC1221C600700D14E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D77F3B221EDBB700410E0B /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		A8D77F41221EE58200410E0B /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		A8D77F43221EE76400410E0B /* PopMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMovies.swift; sourceTree = "<group>"; };
+		A8D77F4D221F0EAB00410E0B /* FilmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCell.swift; sourceTree = "<group>"; };
+		A8F59198222538D0005F88FA /* PopMoviesViewController+CollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopMoviesViewController+CollectionViewDelegate.swift"; sourceTree = "<group>"; };
+		A8F5919A22253A10005F88FA /* PopMoviesViewController+CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopMoviesViewController+CollectionViewDataSource.swift"; sourceTree = "<group>"; };
+		A8F5919C22253A9C005F88FA /* PopMoviesViewController+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PopMoviesViewController+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		A8F591A02225444D005F88FA /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8BFCC782223064100A2037F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8BFCC742222FBCE00A2037F /* Movie+CoreDataClass.swift */,
+				A8BFCC752222FBCE00A2037F /* Movie+CoreDataProperties.swift */,
+				A8D77F3B221EDBB700410E0B /* MovieManager.swift */,
+				A8D77F41221EE58200410E0B /* Request.swift */,
+				A8D77F43221EE76400410E0B /* PopMovies.swift */,
+				A8C38DB9221C600700D14E9A /* PopMovies.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8BFCC792223065F00A2037F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8C38DB4221C600700D14E9A /* PopMoviesViewController.swift */,
+				A8F59198222538D0005F88FA /* PopMoviesViewController+CollectionViewDelegate.swift */,
+				A8F5919A22253A10005F88FA /* PopMoviesViewController+CollectionViewDataSource.swift */,
+				A8F5919C22253A9C005F88FA /* PopMoviesViewController+UICollectionViewDelegateFlowLayout.swift */,
+				A868A94F222171C5000CCF8B /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A8BFCC7A2223069200A2037F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8D77F4D221F0EAB00410E0B /* FilmCell.swift */,
+				A868A951222171F4000CCF8B /* CircleProgressBar.swift */,
+				A8F591A02225444D005F88FA /* UIImageViewExtension.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A8BFCC7B222306B700A2037F /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A8C38DB2221C600700D14E9A /* AppDelegate.swift */,
+				A8C38DB6221C600700D14E9A /* Main.storyboard */,
+				A8C38DBC221C600700D14E9A /* Assets.xcassets */,
+				A8C38DBE221C600700D14E9A /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
 		A8C38DA6221C600700D14E9A = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +126,11 @@
 		A8C38DB1221C600700D14E9A /* PopMovies */ = {
 			isa = PBXGroup;
 			children = (
-				A8C38DB2221C600700D14E9A /* AppDelegate.swift */,
-				A8C38DB4221C600700D14E9A /* ViewController.swift */,
-				A8C38DB6221C600700D14E9A /* Main.storyboard */,
-				A8C38DBC221C600700D14E9A /* Assets.xcassets */,
-				A8C38DBE221C600700D14E9A /* LaunchScreen.storyboard */,
 				A8C38DC1221C600700D14E9A /* Info.plist */,
-				A8C38DB9221C600700D14E9A /* PopMovies.xcdatamodeld */,
+				A8BFCC7B222306B700A2037F /* SupportFiles */,
+				A8BFCC7A2223069200A2037F /* Views */,
+				A8BFCC792223065F00A2037F /* Controllers */,
+				A8BFCC782223064100A2037F /* Models */,
 			);
 			path = PopMovies;
 			sourceTree = "<group>";
@@ -139,8 +207,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8C38DB5221C600700D14E9A /* ViewController.swift in Sources */,
+				A8D77F4E221F0EAB00410E0B /* FilmCell.swift in Sources */,
+				A8C38DB5221C600700D14E9A /* PopMoviesViewController.swift in Sources */,
+				A8D77F3C221EDBB700410E0B /* MovieManager.swift in Sources */,
+				A868A952222171F4000CCF8B /* CircleProgressBar.swift in Sources */,
 				A8C38DB3221C600700D14E9A /* AppDelegate.swift in Sources */,
+				A8BFCC772222FBCE00A2037F /* Movie+CoreDataProperties.swift in Sources */,
+				A8D77F42221EE58200410E0B /* Request.swift in Sources */,
+				A8F5919B22253A10005F88FA /* PopMoviesViewController+CollectionViewDataSource.swift in Sources */,
+				A8F5919D22253A9C005F88FA /* PopMoviesViewController+UICollectionViewDelegateFlowLayout.swift in Sources */,
+				A868A950222171C5000CCF8B /* DetailViewController.swift in Sources */,
+				A8D77F44221EE76400410E0B /* PopMovies.swift in Sources */,
+				A8F59199222538D0005F88FA /* PopMoviesViewController+CollectionViewDelegate.swift in Sources */,
+				A8BFCC762222FBCE00A2037F /* Movie+CoreDataClass.swift in Sources */,
+				A8F591A12225444D005F88FA /* UIImageViewExtension.swift in Sources */,
 				A8C38DBB221C600700D14E9A /* PopMovies.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
