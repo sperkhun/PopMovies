@@ -25,7 +25,7 @@ struct PopMovies: Decodable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         let p = try container.decodeIfPresent(Int.self, forKey: .page)
         if p != nil && p == 1 {
-            MovieManager.instance.deleteAll()
+            DBService.instance.deleteAll()
         }
         self.page = p
         self.totalPages = try container.decodeIfPresent(Int.self, forKey: .totalPages)

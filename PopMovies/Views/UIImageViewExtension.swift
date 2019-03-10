@@ -13,36 +13,24 @@ extension UIImageView {
     
     func downloadFrom(path: String?, defaultImageName: String)
     {
+        let urlString = "https://image.tmdb.org/t/p/w1280"
+        guard let p = path, let url = URL(string: urlString + p) else {
+            return
+        }
         
-        if let p = path {
-            Request.instance.getImage(path: p) { (result) in
-                switch result {
-                case .failure(let error):
-                    print("error: \(error.localizedDescription)")
-                    DispatchQueue.main.async {
-                        self.image = UIImage(named: defaultImageName)
-                        self.layoutSubviews()
-                    }
-                case .success(let data):
-                    if let im = UIImage(data: data) {
-                        DispatchQueue.main.async {
-                            self.image = im
-                            self.layoutSubviews()
-                        }
-                    } else {
-                        DispatchQueue.main.async {
-                            self.image = UIImage(named: defaultImageName)
-                            self.layoutSubviews()
-                        }
-                    }
+        URLSession.shared.dataTask(with: url) { (responseData, response, responseError) in
+            guard let data = responseData, let im = UIImage(data: data) else {
+                DispatchQueue.main.async {
+                    self.image = UIImage(named: defaultImageName)
+                    self.layoutSubviews()
                 }
+                return
             }
-        } else {
             DispatchQueue.main.async {
-                self.image = UIImage(named: defaultImageName)
+                self.image = im
                 self.layoutSubviews()
             }
-        }
+        }.resume()
     }
-    
+
 }

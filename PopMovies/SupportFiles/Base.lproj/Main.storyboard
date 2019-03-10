@@ -24,7 +24,7 @@
         <!--Popular Movies-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="PopMoviesViewController" customModule="PopMovies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MoviesViewController" customModule="PopMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,14 +85,9 @@
                                             <outlet property="posterImage" destination="iM1-oH-izW" id="hiw-9o-Bl1"/>
                                             <outlet property="scoreLabel" destination="a9I-1H-BY5" id="afr-9J-66H"/>
                                             <outlet property="titleLabel" destination="0IN-q1-rPq" id="f7m-01-4aR"/>
-                                            <segue destination="lCw-Y8-FJO" kind="show" identifier="segueFromPopMoviesToDetails" id="Eia-4l-HvT"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="GSb-Fd-FLq"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="UGO-tN-rWr"/>
-                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -109,6 +104,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="WTW-WM-qk0" id="P65-kb-HZQ"/>
+                        <segue destination="lCw-Y8-FJO" kind="show" identifier="segueFromMoviesToDetails" id="oa3-Zg-UlH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -14,7 +14,7 @@ import CoreData
 public class Movie: NSManagedObject, Decodable {
     
     required convenience public init(from decoder: Decoder) throws {
-        let context = MovieManager.instance.persistentContainer.viewContext
+        let context = DBService.instance.persistentContainer.viewContext
         let entity = NSEntityDescription.entity(forEntityName: "Movie", in: context)
         
         self.init(entity: entity!, insertInto: context)

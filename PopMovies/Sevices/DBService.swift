@@ -1,5 +1,5 @@
 //
-//  MovieManager.swift
+//  DBService.swift
 //  PopMovies
 //
 //  Created by Serhii PERKHUN on 2/21/19.
@@ -9,9 +9,9 @@
 import Foundation
 import CoreData
 
-class MovieManager {
+class DBService {
     
-    static let instance = MovieManager()
+    static let instance = DBService()
     
     private init() {}
     
